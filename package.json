@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@datafire/google_gmail": "5.1.0",
+    "@datafire/jira": "2.0.0"
+  }
+}

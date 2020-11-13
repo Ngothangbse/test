@@ -1,0 +1,9 @@
+options:
+  cors: true
+actions:
+  action: ./actions/action.js
+  log_new_reddit_links: ./actions/log_new_reddit_links.js
+tasks:
+  task:
+    action: action
+    schedule: rate(1 day)
